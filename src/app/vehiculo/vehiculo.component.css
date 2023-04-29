@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Jaldi-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+hr {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 20.54px;
+}
+
+table {
+  max-width: 792px;
+}
+
+.contacto {
+  margin-top: 72px;
+}
