@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VehiculoModule } from './vehiculo/vehiculo.module';
 import { HttpClientModule } from '@angular/common/http';
+import { VehiculoListComponent } from './vehiculo/vehiculo-list/vehiculo-list.component';
 
 @NgModule({
   declarations: [AppComponent],

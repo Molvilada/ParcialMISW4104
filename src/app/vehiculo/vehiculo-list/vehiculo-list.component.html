@@ -1,0 +1,21 @@
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Línea</th>
+      <th scope="col">Modelo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let vehiculo of vehiculos">
+      <th scope="row">{{ vehiculo.id }}</th>
+      <td>{{ vehiculo.marca }}</td>
+      <td>{{ vehiculo.linea }}</td>
+      <td>{{ vehiculo.modelo }}</td>
+    </tr>
+  </tbody>
+</table>
+<p class="mb-0">Total Renault: {{ renault }}</p>
+<p class="mb-0">Total Chevrolet: {{ chevrolet }}</p>
+<p class="mb-0">Total Nissan: {{ nissan }}</p>

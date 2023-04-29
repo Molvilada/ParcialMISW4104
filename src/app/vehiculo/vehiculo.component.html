@@ -2,27 +2,7 @@
 <hr />
 <img src="../../assets/images/Frame 1.png" />
 <hr />
-<table class="table">
-  <thead class="table-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Marca</th>
-      <th scope="col">Línea</th>
-      <th scope="col">Modelo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let vehiculo of vehiculos">
-      <th scope="row">{{ vehiculo.id }}</th>
-      <td>{{ vehiculo.marca }}</td>
-      <td>{{ vehiculo.linea }}</td>
-      <td>{{ vehiculo.modelo }}</td>
-    </tr>
-  </tbody>
-</table>
-<p class="mb-0">Total Renault: {{ renault }}</p>
-<p class="mb-0">Total Chevrolet: {{ chevrolet }}</p>
-<p class="mb-0">Total Nissan: {{ nissan }}</p>
+<app-vehiculo-list></app-vehiculo-list>
 
 <div class="d-flex w-100 justify-content-center mb-4 contacto">
   <p class="mb-0">
